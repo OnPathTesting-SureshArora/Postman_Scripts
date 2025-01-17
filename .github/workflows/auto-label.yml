@@ -14,3 +14,7 @@ jobs:
       - uses: Renato66/auto-label@v3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3
+        with:
+          comment: Auto-closing issue

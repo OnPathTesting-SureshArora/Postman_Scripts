@@ -12,6 +12,6 @@
     'help wanted',
     'invalid'
   ],
-  defaultLabels: ['good first issue'],
+  // defaultLabels: ['good first issue'],
   ignoreComments: true
 }
